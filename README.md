@@ -2,9 +2,9 @@
 Buildroot for NanoPi NEO Core hello project
 
 ## How to Build  
-* For buildroot-2019.02.3   
+* For buildroot-2019.02.3, Ubuntu 14.04 32bit     
 $ sudo apt-get update  
-$ sudo apt-get install g++ git  
+$ sudo apt-get install g++ git libncurses5-dev    
 $ cd buildroot-2019.02.3    
 $ make help  
 $ make list-defconfigs    
