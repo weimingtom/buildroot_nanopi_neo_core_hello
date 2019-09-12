@@ -194,6 +194,8 @@ extern void         delayMicroseconds (unsigned int howLong) ;
 extern unsigned int millis            (void) ;
 extern unsigned int micros            (void) ;
 
+extern void doReadall (void);
+
 #include "boardtype_friendlyelec.h"
 
 #ifdef __cplusplus

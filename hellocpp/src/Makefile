@@ -12,6 +12,7 @@ OBJS += wiringPi/piHiPri.o
 OBJS += wiringPi/wiringPiSPI.o 
 OBJS += wiringPi/wiringPiI2C.o 
 OBJS += wiringPi/boardtype_friendlyelec.o
+OBJS += wiringPi/readall.o
 
 BIN := hellocpp
 

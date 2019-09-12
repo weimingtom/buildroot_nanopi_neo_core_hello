@@ -299,7 +299,7 @@ int getBoardType(BoardHardwareInfo** retBoardInfo) {
     char hardware[] = "Allwinnersun8iFamily";
     char revision[] = "0000";
     //sunxi_board_id, in /sys/class/sunxi_info/sys_info
-    char allwinnerBoardID[] = "5(0)";
+    char allwinnerBoardID[] = "5(0)"; //"8(0)"; //
     int ret;
     int i;
     for (i = 0; i < (sizeof(gAllBoardHardwareInfo)/sizeof(BoardHardwareInfo)); i++) {

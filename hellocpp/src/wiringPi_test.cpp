@@ -22,6 +22,10 @@ int main(int argc, char **argv)
     cout << vec[0] << endl;
 
 //------------------------
+
+  doReadall();
+
+//------------------------
   cout << "Hello, WiringNP" << endl;
 
   const int LED_BUILTIN = 7;
