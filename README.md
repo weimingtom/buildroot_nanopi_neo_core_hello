@@ -10,11 +10,11 @@ $ make help
 $ make list-defconfigs    
 $ make nanopi_neo_defconfig  
 $ make menuconfig  
-(Toolchain->Enable C++)  
+(Enable Toolchain->Enable C++)  
 $ make  
-(get sdcard.img under output/image/)  
-(put hellocpp and helloworld to package/)  
-(modify package/Config.in)  
+(Get sdcard.img under output/image/)  
+(Put hellocpp and helloworld to package/)  
+(Modify package/Config.in)  
 ...  
 menu "Miscellaneous"  
 ...  
@@ -22,6 +22,7 @@ source "package/helloworld/Config.in"
 source "package/hellocpp/Config.in"  
 $ make menuconfig  
 (Enable Package->Misc->helloworld, hellocpp)  
-$ make
+$ make  
 (After modify hellocpp source)  
 $ make hellocpp-dirclean && make  
+(Get new sdcard.img under output/image/)  
