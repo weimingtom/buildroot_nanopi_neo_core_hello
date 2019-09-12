@@ -18,8 +18,8 @@ $ make
 ...  
 menu "Miscellaneous"  
 ...  
-+	source "package/helloworld/Config.in"  
-+	source "package/hellocpp/Config.in"  
+source "package/helloworld/Config.in"  
+source "package/hellocpp/Config.in"  
 $ make menuconfig  
 (Enable Package->Misc->helloworld, hellocpp)  
 $ make
