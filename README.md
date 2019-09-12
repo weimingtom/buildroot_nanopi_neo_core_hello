@@ -26,3 +26,4 @@ $ make
 (After modify hellocpp source)  
 $ make hellocpp-dirclean && make  
 (Get new sdcard.img under output/image/)  
+(Flash sdcard.img to tf card using Win32DiskImager, over)  
