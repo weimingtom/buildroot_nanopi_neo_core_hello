@@ -10,7 +10,7 @@ $ make help
 $ make list-defconfigs    
 $ make nanopi_neo_defconfig  
 $ make menuconfig  
-(Enable Toolchain->Enable C++)  
+(Enable Toolchain->Enable C++ support)  
 $ make  
 (Get sdcard.img under output/image/)  
 (Put hellocpp and helloworld to package/)  
